@@ -19,14 +19,54 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AboutForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AtbashCoder.h" />
+    <ClInclude Include="CaesarCoder.h" />
+    <ClInclude Include="CaesarCodeForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="Coder.h" />
+    <ClInclude Include="FourSquareCodeForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="FourSquareCoder.h" />
+    <ClInclude Include="MenuForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AtbashCodeForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="RailCoder.h" />
     <ClInclude Include="RailCodeForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="VernamCodeForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="VernamCoder.h" />
+    <ClInclude Include="VinegereCodeForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="VinegereCoder.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AboutForm.cpp" />
+    <ClCompile Include="AtbashCoder.cpp" />
+    <ClCompile Include="CaesarCoder.cpp" />
+    <ClCompile Include="CaesarCodeForm.cpp" />
     <ClCompile Include="Coder.cpp" />
+    <ClCompile Include="FourSquareCodeForm.cpp" />
+    <ClCompile Include="FourSquareCoder.cpp" />
+    <ClCompile Include="MenuForm.cpp" />
+    <ClCompile Include="AtbashCodeForm.cpp" />
+    <ClCompile Include="RailCoder.cpp" />
     <ClCompile Include="RailCodeForm.cpp" />
+    <ClCompile Include="VernamCodeForm.cpp" />
+    <ClCompile Include="VernamCoder.cpp" />
+    <ClCompile Include="VinegereCodeForm.cpp" />
+    <ClCompile Include="VinegereCoder.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -36,12 +76,39 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AboutForm.resx">
+      <DependentUpon>AboutForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AtbashCodeForm.resx">
+      <DependentUpon>AtbashCodeForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CaesarCodeForm.resx">
+      <DependentUpon>CaesarCodeForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FourSquareCodeForm.resx">
+      <DependentUpon>FourSquareCodeForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuForm.resx">
+      <DependentUpon>MenuForm.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="RailCodeForm.resx">
       <DependentUpon>RailCodeForm.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="VernamCodeForm.resx">
+      <DependentUpon>VernamCodeForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VinegereCodeForm.resx">
+      <DependentUpon>VinegereCodeForm.h</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Image Include="atbash.ico" />
+    <Image Include="copy.ico" />
+    <Image Include="main.ico" />
     <Image Include="rail.ico" />
+    <Image Include="vernam.ico" />
+    <Image Include="vinegere.ico" />
+    <Image Include="wreath.ico" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

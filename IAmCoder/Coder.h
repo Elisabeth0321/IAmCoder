@@ -5,9 +5,9 @@ using namespace System::Text;
 
 namespace IAmCoder {
 
-    public ref class Coder
+    private ref class Coder
     {
-    private:
+    protected:
         String^ originalText;
         String^ encryptedText;
         String^ decryptedText;
@@ -31,9 +31,6 @@ namespace IAmCoder {
         {
             String^ get();
         }
-
-        void RailFenceEncode(int rails);
-        void RailFenceDecode(int rails);
     };
 
 }
